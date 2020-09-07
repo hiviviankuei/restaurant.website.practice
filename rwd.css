@@ -1,0 +1,423 @@
+@media screen and (max-width : 1200px){
+    .navi-bar .menu li {
+        margin: 0 1rem;
+    }
+
+    .navi-bar .logo {
+        width: 70px;
+        margin: 0 1rem;
+    }
+
+    .h1 {
+        font-size: 280px;
+    }
+
+    .contact .contact-wrap {
+        margin-top: -200px;
+        margin-left: 0;
+        width: 80%;
+    } 
+
+    .contact .map-wrap iframe{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        border: unset;
+        width: 40%;
+        height: 500px;
+    }
+}
+
+
+
+
+
+@media screen and (max-width : 900px){
+    .navi-bar {
+        display: none;
+    }
+    
+    .navi-bar-mb {
+        display: flex;
+    }
+
+    .container .p1 {
+        position: absolute;
+        right: 5rem;
+        top: -200px;
+    }
+
+    .container .image-wrap {
+        z-index: 1;
+        margin-top: -100px;
+        margin-left: 0;
+    }
+
+    .container .image-wrap img {
+        width: 70vw;
+    }
+
+    .paralaxtwo {
+        position: absolute;
+        z-index: 1;
+        top: 80%;
+        right: 30px;
+        width: 30%;
+    }
+
+    .place-detail .p1 {
+        position: absolute;
+        top: 10rem;
+        left: 5rem;
+    }
+
+    .h1 {
+        font-size: 200px;
+    }
+
+    h4 {
+        font-size: 18px;
+    }
+    
+    h3 {
+        font-size: 40px;
+    }
+
+    .gallery {
+        margin-top: 100px;
+    }
+
+    .gallery .container {
+        padding: 0 5rem;
+    }
+
+    .gallery .wrap-pic {
+        padding-top: 100px;
+        width: 80vw;
+    }
+
+    .recipes .content-menu,.flex div:nth-child(2n){
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .recipes .detail-menu {
+        width: 100%;
+        margin-right:0;
+    }
+
+    .recipes .content-menu > img {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .post-slider .post-wrap {
+        width: 84%;
+        height: 100%;
+        display: flex;
+        margin: -100px auto 0 auto;
+    }
+
+    .post-slider .prev {
+        position: absolute;
+        left: 40%;
+        bottom:-80px;
+        font-size: 3rem;
+    }
+    
+    .post-slider .next {
+        position: absolute;
+        right: 40%;
+        bottom:-80px;
+        font-size: 3rem;
+    }
+
+    .contact .contact-wrap {
+        margin-top: -100px;
+        width: 80%;
+        margin-left: 30px;
+    } 
+
+    .contact form input,.contact form textarea{
+        width: 60%;
+    }
+    
+    .contact .map-wrap iframe{
+        margin-right: 30px;
+    }
+
+}
+
+
+
+
+
+@media screen and (max-width : 414px){    
+    .navi-bar-mb .menu > div > div {
+        margin-top: 0;
+    }
+    
+    .navi-bar-mb .menu > div > div > ul > li {
+        margin-left: 30px;
+        font-size: 50px;
+    }
+
+    .container .p1, .place-detail .p1{
+        position: static;
+        right: 0;
+        width: 100%;
+        text-align: center;
+    }
+     
+    .place-detail {
+        position: relative;
+        top: -50px;
+    }
+
+    .h1 {
+        font-size: 150px;
+    }
+
+    h4 {
+        font-size: 18px;
+    }
+    
+    h3 {
+        font-size: 30px;
+    }
+
+    .about-us .upper-header {
+        width: 100%;
+        height: 200px;
+        position: absolute;
+        top: -40px;
+        z-index: -1;
+    }
+
+    .container {
+        position: relative;
+        top: -100px;
+    }
+
+    .container .image-wrap img {
+        width: 100%;
+        margin-bottom: 20px;
+        vertical-align: middle;
+    }
+
+    .container .image-wrap {
+        z-index: 1;
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .paralaxone {
+        display: none;
+    }
+    
+    .paralaxtwo {
+        display: none;
+    }
+
+    .gallery .container {
+        padding: 0 2rem;
+        margin: 0 auto;
+    }
+    
+    .gallery .wrap-pic {
+        padding-top: 40px;
+        column-count: 2;
+    }
+
+    .recipes .container {
+        width:  100vw;
+        padding: 0 2rem;
+        margin: 0 auto;
+    }
+
+    .recipes .content-menu{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin:0;
+    }
+
+    .recipes .detail-menu h3 {
+        text-align: center;
+    }
+    
+    .recipes .detail-menu > p {
+        line-height: 1.5rem;
+        text-align: center;
+    }
+
+    .review-wrap {
+        margin: -80px 0 0 0 ;
+    }
+
+    .review {
+        margin-top: 10px;
+    }
+
+    .contact {
+        width: 100%;
+        padding: 5rem .5rem;
+    }
+
+    .contact .content {
+        position: relative;
+        padding: 0 1rem;
+    }
+
+    .contact .contact-wrap {
+        text-align: center;
+        margin-top: -80px;
+        margin-left: 0;
+        width: 100%;
+    } 
+
+    .contact .map-wrap iframe{
+        position: static;
+        border: unset;
+        width: 100%;
+        height: 300px;
+    }
+
+    .contact form input,.contact form textarea{
+        width: 100%;
+    }
+
+    .post-slider .post-wrap {
+        width: 100%;
+    }
+
+    .post-slider .prev {
+        position: absolute;
+        left: 30%;
+        bottom:-80px;
+        font-size: 3rem;
+    }
+    
+    .post-slider .next {
+        position: absolute;
+        right: 30%;
+        bottom:-80px;
+        font-size: 3rem;
+    }
+
+    .contact .contact-wrap {
+        padding: 2rem;
+    } 
+
+    .footer {
+        background-color: #000000;
+        height: 300px;
+    }
+
+    .footer ul {
+        padding-top: 2.5rem;
+        margin: auto 0;
+        display: block;
+        text-align: center;
+    }
+
+    .footer li {
+
+        margin-bottom: 1rem;
+    }
+
+    .footer li a{
+        font-size: 15px;
+    }
+
+    
+
+}
+
+
+
+
+
+@media screen and (max-width : 375px) {
+    .navi-bar-mb .menu > div > div > ul > li {
+        font-size: 40px;
+    }
+
+    .recipes .detail-menu li h5 {
+        float: right;
+        font-size: 25px;
+        margin-top: 10px;
+    }
+
+    .gallery .wrap-pic {
+        width: 90vw;
+        margin-top: -100px;
+    }
+
+    .contact .contact-wrap {
+        margin-top: -100px;
+    } 
+
+    .contact {
+        width: 100%;
+        margin-top: 100px;
+    }
+}
+
+
+
+@media screen and (max-width : 320px){
+    .navi-bar-mb .menu > div > div > ul > li {
+        font-size: 35px;
+    }
+
+
+    .main-hero h1{
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .main-hero p {
+        font-size: 15px;
+    }
+
+    .recipes .detail-menu li img {
+        float: none;
+        margin-right: 0;
+    }
+
+    .recipes .detail-menu li {
+        text-align: center;
+    }
+
+    .recipes .detail-menu li h5 {
+        float: none;
+        font-size: 30px;
+    }
+
+    .recipes .detail-menu li h4 {
+        margin-top: 0;
+    }
+    
+    .recipes .detail-menu li p {
+        font-size: 13px;
+        border-bottom: 2px dashed;
+        padding-bottom: 10px;
+    }
+
+    .review {
+        padding: 0 .5rem;
+    }
+
+    .contact .content {
+        position: relative;
+        padding: 0 .5rem;
+    }
+
+    .contact .contact-wrap {
+        padding: 1rem;
+    } 
+
+
+    
+}
